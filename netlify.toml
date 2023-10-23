@@ -1,0 +1,9 @@
+[build]
+  command = "npm install --force && npm run build --force"
+  publish = "public"
+
+
+[[redirects]]
+  from = "/pass-through"
+  to = "/index.html"
+  status = 200

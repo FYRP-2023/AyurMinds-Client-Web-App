@@ -38,6 +38,14 @@ export const navLinks = [
     id: "contact",
     title: "Contact",
   },
+  {
+    id: "login",
+    title: "Login",
+  },
+  {
+    id: "dashbord",
+    title: "Dashboard",
+  },
 ];
 
 const services = [
