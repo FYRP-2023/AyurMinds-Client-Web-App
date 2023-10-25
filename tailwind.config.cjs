@@ -21,7 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern":
-          "url('/src/assets/fa727196fc7fc48da630d565470932c7.gif')",
+          "url('/src/assets/tumblr_p0yljbMKwU1qeyvpto1_r1_500.gif')",
       },
       fontFamily: {
         borel: ["Borel", "sans"],
