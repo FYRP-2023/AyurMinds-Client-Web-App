@@ -34,11 +34,11 @@
 }
 
 .green-gradient {
-  background: #17CE92;
-  background: linear-gradient(-90deg, #17CE92 0%, rgba(60, 51, 80, 0) 100%);
+  background: #17ce92;
+  background: linear-gradient(-90deg, #17ce92 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #17CE92 0%,
+    #17ce92 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -124,6 +124,18 @@
   text-indent: -9999em;
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
+}
+
+.bg-1d1836 {
+  background-color: #1d1836;
+}
+
+.bg-17CE92 {
+  background-color: #17ce92;
+}
+
+.text-green {
+  color: #17ce92;
 }
 
 @keyframes mulShdSpin {
