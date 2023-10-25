@@ -21,7 +21,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero-pattern":
-          "url('/src/assets/vecteezy_animation-in-4k-abstract-wave-particles-background-dot-wave-bokeh-particles-background_1626459.gif')",
+          "url('/src/assets/fa727196fc7fc48da630d565470932c7.gif')",
       },
       fontFamily: {
         borel: ["Borel", "sans"],
