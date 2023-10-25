@@ -20,12 +20,13 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.avif')",
+        "hero-pattern":
+          "url('/src/assets/vecteezy_animation-in-4k-abstract-wave-particles-background-dot-wave-bokeh-particles-background_1626459.gif')",
       },
       fontFamily: {
-       'borel': ['Borel', 'sans'],
-        'gfs-neohellenic': ['GFS Neohellenic', 'sans-italic'],
-        'ubuntu': ['Ubuntu', 'sans-italic', '300'],
+        borel: ["Borel", "sans"],
+        "gfs-neohellenic": ["GFS Neohellenic", "sans-italic"],
+        ubuntu: ["Ubuntu", "sans-italic", "300"],
       },
     },
   },
