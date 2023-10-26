@@ -39,12 +39,8 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "login",
-    title: "Login",
-  },
-  {
-    id: "dashboard",
-    title: "DashBoard",
+    id: "settings",
+    title: "Settings",
   },
 ];
 
