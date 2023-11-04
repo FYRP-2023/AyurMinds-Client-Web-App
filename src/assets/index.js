@@ -30,7 +30,19 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import herbs from "./herbIcon.svg";
+import chatbot from "./chatbotIcon.svg";
+import doc from "./doctor-icon.svg";
+import social from "./social_media_marketing.svg";
+import task from "./task.png";
+
+
 export {
+  task,
+  social,
+  doc,
+  chatbot,
+  herbs,
   logo,
   backend,
   creator,

@@ -23,7 +23,48 @@ import {
   jobit,
   tripguide,
   threejs,
+  herbs,
+  chatbot,
+  doc,
+  social,
+  task,
 } from "../assets";
+
+import project_proposal from "../assets/pdf/Tmp-23-252.pdf";
+import pp1 from "../assets/pdf/pp1.pdf";
+import pp2 from "../assets/pdf/Ayur-minds-PP2-presentation.pdf";
+import final_presentation_23_252 from "../assets/pdf/Final Presentation 23-252.pdf";
+import Final_Report_23_252_Revised from "../assets/pdf/Final_Report-23-252_Revised.pdf";
+import Proposal_report_23_IT20216078 from "../assets/pdf/projectProposals/Proposal-report-23-IT20216078.pdf";
+import Proposal_report_23_IT20166038 from "../assets/pdf/projectProposals/Proposal-report-23-IT20166038.pdf";
+import Proposal_report_23_IT20089436 from "../assets/pdf/projectProposals/Proposal-report-23-IT20089436.pdf";
+import Proposal_report_23_IT20069186 from "../assets/pdf/projectProposals/Proposal-report-23-IT20069186.pdf";
+
+import Status_doc_1_23_IT20216078 from "../assets/pdf/status_document_1/Status-document-1-23-IT20216078.pdf";
+import Status_doc_1_23_IT20166038 from "../assets/pdf/status_document_1/Status_ document_1_23_IT20166038.pdf";
+import Status_doc_1_23_IT20089436 from "../assets/pdf/status_document_1/Status_document_1_23_IT20089436.pdf";
+import Status_doc_1_23_IT20069186 from "../assets/pdf/status_document_1/Status_ document_1_23_IT20069186.pdf";
+
+import Status_doc_2_23_IT20216078 from "../assets/pdf/status_document_2/Status-document-23-252-IT20216078.pdf";
+import Status_doc_2_23_IT20166038 from "../assets/pdf/status_document_2/Status-document-23-252-IT20166038.pdf";
+import Status_doc_2_23_IT20089436 from "../assets/pdf/status_document_2/Status-document-23-252-IT20089436.pdf";
+import Status_doc_2_23_IT20069186 from "../assets/pdf/status_document_2/Status-document-23-252-IT20069186.pdf";
+
+import Research_Logbook_IT20216078 from "../assets/pdf/logbooks/lb-IT20216078.pdf";
+import Research_Logbook_IT20166038 from "../assets/pdf/logbooks/lb-IT20166038.pdf";
+import Research_Logbook_IT20089436 from "../assets/pdf/logbooks/lb-IT20089436.pdf";
+import Research_Logbook_IT20069186 from "../assets/pdf/logbooks/lb-IT20069186.pdf";
+
+import dharshana from "../assets/Team/Dharshana Kasthurirathna.png";
+import Wasantha from "../assets/Team/Wasantha Janaki.png";
+import Samantha from "../assets/Team/samantha rajapaksha.png";
+import scolar from "../assets/96351903-818a8b00-1084-11eb-96f6-3a931d66fff6.png";
+
+
+import final_report_23_IT20216078 from "../assets/pdf/final_reports/Final_Report_23_252-IT20216078.pdf";
+import final_report_23_IT20166038 from "../assets/pdf/final_reports/Final_Report_23-252_IT20166038.pdf";
+import final_report_23_IT20089436 from "../assets/pdf/final_reports/Final_Report_23-252-IT20089436.pdf";
+import final_report_23_IT20069186 from "../assets/pdf/final_reports/Final_Report_23-252-IT20069186.pdf";
 
 export const navLinks = [
   {
@@ -46,20 +87,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Ayur Minds Chatbot",
+    icon: chatbot,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
+    title: "Ayur Minds Doctor Recommender",
+    icon: doc,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Ayur Minds Herbes Analyzer",
+    icon: herbs,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Ayur Minds Social Network",
+    icon: social,
   },
 ];
 
@@ -120,55 +161,238 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Project charter",
+    company_name: "",
+    icon: task,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    date: "30- Jan- 2023",
+    file: "",
+    fileName: "",
+    points: [],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Proposal Presentation",
+    company_name: "",
+    icon: task,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "27-31 March- 2023",
+    file: project_proposal,
+    fileName: "project_proposal_23_252",
+    points: [],
+  },
+  {
+    title: "Proposal Reports ",
+    company_name: "",
+    icon: task,
+    iconBg: "#E6DEDD",
+    date: "5-May 2023",
+    file: "",
+    fileName: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      {
+        id: "Proposal-report-23-IT20069186",
+        file: Proposal_report_23_IT20069186,
+        fileName: "Proposal-report-23-IT20069186",
+        title: "Proposal Report IT20069186",
+      },
+      {
+        id: "Proposal-report-23-IT20089436",
+        file: Proposal_report_23_IT20089436,
+        fileName: "Proposal-report-23-IT20089436",
+        title: "Proposal Report IT20089436 ",
+      },
+      {
+        id: "Proposal-report-23-IT20166038",
+        file: Proposal_report_23_IT20166038,
+        fileName: "Proposal-report-23-IT20166038",
+        title: "Proposal Report IT20089436",
+      },
+      {
+        id: "Proposal-report-23-IT20216078",
+        file: Proposal_report_23_IT20216078,
+        fileName: "Proposal-report-23-IT20216078",
+        title: "Proposal Report IT20089436",
+      },
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Progress Presentation I",
+    company_name: "",
+    icon: task,
+    iconBg: "#383E56",
+    date: "22- 26 May- 2023",
+    file: pp1,
+    fileName: "progress_presentation_I_23_252",
+    points: [],
+  },
+  {
+    title: "Status Document I",
+    company_name: "",
+    icon: task,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "22- May- 2023",
+    file: "",
+    fileName: "",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      {
+        id: "Status_document_1_IT20069186",
+        file: Status_doc_1_23_IT20069186,
+        fileName: "Status_document_1_IT20069186",
+        title: "Status Document I IT20069186",
+      },
+      {
+        id: "Status_document_1_IT20089436",
+        file: Status_doc_1_23_IT20089436,
+        fileName: "Status_document_1_IT20089436",
+        title: "Status Document I IT20089436 ",
+      },
+      {
+        id: "Status_document_1_IT20166038",
+        file: Status_doc_1_23_IT20166038,
+        fileName: "Status_document_1_IT20166038",
+        title: "Status Document I IT20089436",
+      },
+      {
+        id: "Status_document_1_IT20216078",
+        file: Status_doc_1_23_IT20216078,
+        fileName: "Status_document_1_IT20216078",
+        title: "Status Document I IT20089436",
+      },
+    ],
+  },
+  {
+    title: "Research Paper",
+    company_name: "",
+    icon: task,
+    iconBg: "#383E56",
+    date: "20- Jun- 2023",
+    file: "",
+    fileName: "",
+    points: [],
+  },
+  {
+    title: "Final Reports",
+    company_name: "",
+    icon: task,
+    iconBg: "#E6DEDD",
+    date: "10- Sep- 2023",
+    file: Final_Report_23_252_Revised,
+    fileName: "Final_Report_23_252",
+    points: [
+      {
+        id: "final_report_23_252_IT20069186",
+        file: final_report_23_IT20069186,
+        fileName: "final_report_23_252_IT20069186",
+        title: "Final Report IT20069186",
+      },
+      {
+        id: "final_report_23_252_IT20089436",
+        file: final_report_23_IT20089436,
+        fileName: "final_report_23_252_IT20089436",
+        title: "Final Report IT20089436 ",
+      },
+      {
+        id: "final_report_23_252_IT20166038",
+        file: final_report_23_IT20166038,
+        fileName: "final_report_23_252_IT20166038",
+        title: "Final Report IT20089436",
+      },
+      {
+        id: "final_report_23_252_IT20216078",
+        file: final_report_23_IT20216078,
+        fileName: "final_report_23_252_IT20216078",
+        title: "Final Report IT20089436",
+      },
+    ],
+  },
+  {
+    title: "Progress Presentation II",
+    company_name: "",
+    icon: task,
+    iconBg: "#383E56",
+    date: "4-6 Sep 2023",
+    file: pp2,
+    fileName: "PP2_23_252",
+    points: [],
+  },
+  {
+    title: "Status Document I",
+    company_name: "",
+    icon: task,
+    iconBg: "#E6DEDD",
+    date: "4-6 Sep 2023",
+    file: "",
+    fileName: "",
+    points: [
+      {
+        id: "Status_document_2_IT20069186",
+        file: Status_doc_2_23_IT20069186,
+        fileName: "Status_document_2_IT20069186",
+        title: "Status Document II IT20069186",
+      },
+      {
+        id: "Status_document_2_IT20089436",
+        file: Status_doc_2_23_IT20089436,
+        fileName: "Status_document_2_IT20089436",
+        title: "Status Document II IT20089436 ",
+      },
+      {
+        id: "Status_document_2_IT20166038",
+        file: Status_doc_2_23_IT20166038,
+        fileName: "Status_document_2_IT20166038",
+        title: "Status Document II IT20089436",
+      },
+      {
+        id: "Status_document_2_IT20216078",
+        file: Status_doc_2_23_IT20216078,
+        fileName: "Status_document_2_IT20216078",
+        title: "Status Document II IT20089436",
+      },
+    ],
+  },
+  {
+    title: "Final Presentation",
+    company_name: "",
+    icon: task,
+    iconBg: "#383E56",
+    date: "30- Oct- 03- Nov 2023",
+    file: final_presentation_23_252,
+    fileName: "final_presentation_23_252",
+    points: [],
+  },
+  {
+    title: "Research Logbook",
+    company_name: "",
+    icon: task,
+    iconBg: "#E6DEDD",
+    date: "4-6 Sep 2023",
+    file: "",
+    fileName: "",
+    points: [
+      {
+        id: "Research_Logbook_IT20069186",
+        file: Research_Logbook_IT20069186,
+        fileName: "Research_Logbook_IT20069186",
+        title: "Research Logbook IT20069186",
+      },
+      {
+        id: "Research_Logbook_IT20089436",
+        file: Research_Logbook_IT20089436,
+        fileName: "Research_Logbook_IT20089436",
+        title: "Research Logbook IT20089436 ",
+      },
+      {
+        id: "Research_Logbook_IT20166038",
+        file: Research_Logbook_IT20166038,
+        fileName: "Research_Logbook_IT20166038",
+        title: "Research Logbook IT20089436",
+      },
+      {
+        id: "Research_Logbook_IT20216078",
+        file: Research_Logbook_IT20216078,
+        fileName: "Research_Logbook_IT20216078",
+        title: "Research Logbook IT20089436",
+      },
     ],
   },
 ];
@@ -202,9 +426,10 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Dr. Dharshana Kasthurirathna",
+    title: "Supervisor",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Assistant Professor | FACULTY OF COMPUTING | COMPUTER SCIENCE & SOFTWARE ENGINEERING SLIIT",
     tags: [
       {
         name: "react",
@@ -219,13 +444,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: dharshana,
+    profilelinkicon: scolar,
+    source_code_link:
+      "https://scholar.google.com/citations?hl=en&user=yXNciNUAAAAJ",
   },
   {
-    name: "Job IT",
+    name: "Dr. Samantha Rajapaksha",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Head | Department of Information Technology FACULTY OF COMPUTING | INFORMATION TECHNOLOGYsliit",
+    title: "Co-Supervisor",
     tags: [
       {
         name: "react",
@@ -240,13 +468,16 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: Samantha,
+    profilelinkicon: scolar,
+    source_code_link:
+      "https://scholar.google.com/citations?hl=en&user=t1krVdkAAAAJ",
   },
   {
-    name: "Trip Guide",
+    name: "Dr.  Wasantha Janaki",
+    title: "External Supervisor ",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Senior Lecturer & Consultant Physician Dept. of Chikitsa Gampaha Wickramarachchi University of Indigenous Medicine Yakkala, Sri Lanka.",
     tags: [
       {
         name: "nextjs",
@@ -261,8 +492,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Wasantha,
+    profilelinkicon: scolar,
+    source_code_link:
+      "https://scholar.google.com/citations?hl=en&user=1yqut-QAAAAJ",
   },
 ];
 
