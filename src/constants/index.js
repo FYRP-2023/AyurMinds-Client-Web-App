@@ -58,7 +58,12 @@ import Research_Logbook_IT20069186 from "../assets/pdf/logbooks/lb-IT20069186.pd
 import dharshana from "../assets/Team/Dharshana Kasthurirathna.png";
 import Wasantha from "../assets/Team/Wasantha Janaki.png";
 import Samantha from "../assets/Team/samantha rajapaksha.png";
+import sunera from "../assets/Team/sunera.png";
+import imasha from "../assets/Team/imasha.png";
+import amila from "../assets/Team/amila.png";
+import shalani from "../assets/Team/shalani.png";
 import scolar from "../assets/96351903-818a8b00-1084-11eb-96f6-3a931d66fff6.png";
+import linkedin from "../assets/702300.png";
 
 
 import final_report_23_IT20216078 from "../assets/pdf/final_reports/Final_Report_23_252-IT20216078.pdf";
@@ -496,6 +501,97 @@ const projects = [
     profilelinkicon: scolar,
     source_code_link:
       "https://scholar.google.com/citations?hl=en&user=1yqut-QAAAAJ",
+  },
+  {
+    name: "Imasha Kuruppu",
+    title: " ",
+    description:
+      "Associate Software Engineer at Rooster Technology | Undergraduate at SLIIT | BSc (Hons) in Information Technology Specializing in Software Engineering",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: imasha,
+    profilelinkicon: linkedin,
+    source_code_link: "https://www.linkedin.com/in/imasha-kuruppu-78a755226/",
+  },
+  {
+    name: "Amila Devin",
+    title: " ",
+    description:
+      "Associate Software Engineer at Ceylon Business Appliances (Pvt) Limited. | Software Engineering Undergraduate at SLIIT",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: amila,
+    profilelinkicon: linkedin,
+    source_code_link: "https://www.linkedin.com/in/amiladevin",
+  },
+  {
+    name: "Shalini De Silva",
+    title: " ",
+    description:
+      "Software Engineering Undergraduate at SLIIT | Undergraduate Trainee @ IFS | Freelancer",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shalani,
+    profilelinkicon: linkedin,
+    source_code_link: "https://www.linkedin.com/in/shalini-de-silva-ab2b081a9/",
+  },
+  {
+    name: "Sunera Jayasinghe",
+    title: " ",
+    description: "Undergraduate at SLIIT",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sunera,
+    profilelinkicon: linkedin,
+    source_code_link: "https://www.linkedin.com/in/sunerajayasinghe/",
   },
 ];
 
