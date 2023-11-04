@@ -32,6 +32,7 @@ import {
 
 import project_proposal from "../assets/pdf/Tmp-23-252.pdf";
 import pp1 from "../assets/pdf/pp1.pdf";
+import project_charter_23_252 from "../assets/pdf/project_charter-23-252.pdf";
 import pp2 from "../assets/pdf/Ayur-minds-PP2-presentation.pdf";
 import final_presentation_23_252 from "../assets/pdf/Final Presentation 23-252.pdf";
 import Final_Report_23_252_Revised from "../assets/pdf/Final_Report-23-252_Revised.pdf";
@@ -171,8 +172,8 @@ const experiences = [
     icon: task,
     iconBg: "#E6DEDD",
     date: "30- Jan- 2023",
-    file: "",
-    fileName: "",
+    file: project_charter_23_252,
+    fileName: "project_charter_23_252",
     points: [],
   },
   {
