@@ -12,11 +12,11 @@ const Tech = () => {
           <BallCanvas icon={technology.icon} />
         </div>
       ))}
-      {technologies2.map((technology) => (
+      {/* {technologies2.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
           <BallCanvas icon={technology.icon} />
         </div>
-      ))}
+      ))} */}
     </div>
   );
 };
