@@ -28,6 +28,8 @@ import {
   doc,
   social,
   task,
+  csharp,
+  anaconda,
 } from "../assets";
 
 import project_proposal from "../assets/pdf/Tmp-23-252.pdf";
@@ -162,7 +164,17 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
-  },
+  }
+];
+const technologies2 = [
+  // {
+  //   name: "csharp",
+  //   icon: csharp,
+  // },
+  // {
+  //   name: "anaconda",
+  //   icon: anaconda,
+  // },
 ];
 
 const experiences = [
@@ -596,4 +608,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies,technologies2, experiences, testimonials, projects };
