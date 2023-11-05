@@ -165,6 +165,22 @@ const technologies = [
     name: "docker",
     icon: docker,
   }
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "anaconda",
+    icon: anaconda,
+  },
+  {
+    name: "ccharp",
+    icon: ccharp,
+  },
+  {
+    name: "flask",
+    icon: flask,
+  },
 ];
 const technologies2 = [
   // {
