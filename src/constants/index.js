@@ -409,7 +409,7 @@ const experiences = [
         id: "Research_Logbook_IT20216078",
         file: Research_Logbook_IT20216078,
         fileName: "Research_Logbook_IT20216078",
-        title: "Research Logbook IT2021607",
+        title: "Research Logbook IT20216078",
       },
     ],
   },
